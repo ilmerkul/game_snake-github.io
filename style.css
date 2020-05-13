@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+}
+
+#game {
+    background: black;
+}
+
+.score {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 20px;
+    color: white;
+}
