@@ -98,23 +98,23 @@ function collision() {
 
 
 document.addEventListener('keydown', (event) => {
-    switch(event.key) { 
-        case 'w':
+    switch(event.code) { 
+        case 'KeyW':
             if (direction != 2) {
                 direction = 0; 
                 break;
             } 
-        case 'd':
+        case 'KeyD':
             if (direction != 3) {
                 direction = 1; 
                 break;
             }
-        case 's': 
+        case 'KeyS': 
             if (direction != 0) {
                 direction = 2; 
                 break;
             }
-        case 'a': 
+        case 'KeyA': 
             if (direction != 1) {
                 direction = 3; 
                 break;
